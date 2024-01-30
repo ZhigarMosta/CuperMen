@@ -1,0 +1,18 @@
+.container_card {
+  width: 234px;
+  height: 246px;
+  flex-shrink: 0;
+  background: #73d677;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+	flex-direction: column;
+	gap: 22px;
+}
+.hero {
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

@@ -1,0 +1,52 @@
+input {
+  width: 1088px;
+  height: 53px;
+  flex-shrink: 0;
+  border-radius: 40px;
+  background: #f2f2f2;
+  box-shadow: 4px 4px 16px 0px rgba(1, 28, 64, 0.2);
+  border: none;
+  color: rgba(33, 33, 33, 0.8);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 31px;
+  margin-bottom: 35px;
+}
+
+input:active,
+input:focus {
+  outline: none;
+}
+
+.wrapper_container {
+  display: flex;
+  justify-content: center;
+}
+
+.contaier {
+  display: flex;
+  justify-content: space-between;
+  width: 1135px;
+  align-items: center;
+}
+
+.wrapper_card {
+  width: 1135px;
+  display: flex;
+  row-gap: 37px;
+  column-gap: 184px;
+  flex-wrap: wrap;
+}
+
+.textCard {
+  color: #000;
+  text-align: center;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 3px;
+  margin-top: -5px;
+}

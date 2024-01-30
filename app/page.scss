@@ -1,0 +1,39 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-size: inherit;
+  font-weight: 20px;
+}
+
+.wrapper_container {
+  display: flex;
+  justify-content: center;
+}
+
+.contaier {
+  display: flex;
+  justify-content: space-between;
+  width: 1135px;
+  align-items: center;
+	margin-top: 48px;
+}
+
+.mane_text {
+  color: #000;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 4px;
+  width: 506px;
+}
+
+.left_side {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
